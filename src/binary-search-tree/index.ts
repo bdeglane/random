@@ -15,7 +15,7 @@ for (let ii = 0; ii < 50; ii++) {
 
 console.log(tree)
 
-tree.traverse();
+tree.traverse()
 
 const int = Math.floor(Math.random() * Math.floor(5))
 console.log(`search for : ${int}`)

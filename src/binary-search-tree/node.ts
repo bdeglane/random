@@ -6,20 +6,20 @@ interface NodeParams {
 
 
 export class Node {
-    public left: Node = null;
-    public rigth: Node = null;
-    public value: number;
+    public left: Node = null
+    public rigth: Node = null
+    public value: number
 
     constructor(params: NodeParams) {
-        this.left = params.left || null;
-        this.rigth = params.rigth || null;
-        this.value = params.value;
+        this.left = params.left || null
+        this.rigth = params.rigth || null
+        this.value = params.value
     }
 
     /**
      * Sort number value
-     * 
-     * @param {Node} node 
+     *
+     * @param {Node} node
      */
     addNode(node: Node): void {
         if (node.value < this.value) {

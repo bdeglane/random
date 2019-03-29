@@ -1,25 +1,26 @@
 import { Node } from './node'
+
 /**
  * wrapper for root node
  */
 export class Tree {
-    public root: Node;
+    public root: Node
 
     constructor() {
-        this.root = null;
+        this.root = null
     }
 
     /**
-     * 
-     * @param {number} value 
+     *
+     * @param {number} value
      */
     public addNode(value: number): void {
 
-        const node = new Node({ value })
+        const node = new Node({value})
 
         if (this.root == null) {
             // set up first node
-            this.root = node;
+            this.root = node
         } else {
             this.root.addNode(node)
         }
