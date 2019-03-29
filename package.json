@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run:binary-search-tree": "ts-node src/binary-search-tree/index.ts"
+    "run:binary-search-tree": "ts-node src/binary-search-tree/index.ts",
+    "run:a-star": "ts-node src/a-star/index.ts"
   },
   "author": "",
   "license": "ISC",
